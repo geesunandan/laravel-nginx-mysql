@@ -1,7 +1,8 @@
 1. Install docker 
 2. Install docker compose
 3. Clone the repository
-4. Start docker and set the file resource path to laravel-app in settings.
+4. Start docker and set the file resource path to laravel-app in settings and execute this command in the terminal: copy .env.example .env
+
 5. docker-compose up -d to start the containers create volume and connect networks.
 6. docker ps to view all containers and details related to it.
 7. localhost:80 on browser to view the page 
